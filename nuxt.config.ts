@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      appUrl: process.env.APP_URL,
+      // appUrl: process.env.APP_URL,
+      appUrl: "https://nuxtjs-url-shortener.vercel.app",
     },
   },
 
